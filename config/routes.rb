@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get '/create_pres' => 'application#create'
   get '/pres/:id/edit' => 'application#edit'
   get '/update_pres/:id' => 'application#update'
+  get '/pres/:id/destroy' => 'application#destroy'
 end

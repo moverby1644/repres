@@ -11,3 +11,15 @@ form {
   font-size: 2em;
   font-weight: bold;
 }
+
+.deletel {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.destroys {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
