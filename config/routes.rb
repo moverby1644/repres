@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get '/pres/:id/edit' => 'application#edit'
   get '/update_pres/:id' => 'application#update'
   get '/pres/:id/destroy' => 'application#destroy'
+  get '/pres' => 'application#index'
 end

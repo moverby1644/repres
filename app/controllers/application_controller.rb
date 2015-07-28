@@ -43,4 +43,8 @@ class ApplicationController < ActionController::Base
     d = Datum.find_by_id(params['id'])
     d.destroy
   end
+  
+  def index
+    @datum = Datum.all
+  end
 end
