@@ -1,0 +1,9 @@
+<h1>Idea #<%= @user.id %></h1>
+
+<div>
+  <strong>Content</strong>:<br />
+  <p><%= @user.content %></p>
+</div>
+
+<a href="/users/<%= @user.id %>/edit">Edit</a> |
+<a href="/users/<%= @user.id %>/destroy">Destroy</a>
